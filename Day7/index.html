@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #color {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+
+    </center>
+    <center><b>TELANGANA STATE ROAD TRANSPORT CORPORATION </b></center>
+    <center><b>GENERAL BUS PASS APPLICATION</b></center>
+
+    <form action="./practice.html" method="get">
+
+        <fieldset>
+            <legend>
+                <h1>Application Details</h1>
+            </legend>
+            <label for="name">Name : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="name" id="fname" pattern="[a-zA-Z]+" title="should be alphabets" required><br><br>
+            <label for=" fname">Father's/Gardian,s Name : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Father" id="fname" pattern="[a-zA-Z]+" title="should be alphabets"
+                required><br><br>
+            <label for="dob">Date of birth : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" name="name" id="dob" required><br><br>
+            <label for="gender">Gender : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="gender" required>female
+            <input type="radio" name="gender" id="gender" required>male <br><br>
+            <label for="age">Age As on:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="name" id="age" required width="20"> year(s)
+            <input type="checkbox" name="name" id="age" required width="20">Month,s
+            <input type="checkbox" name="name" id="age" required width="20">Day,s
+            <br><br>
+            <label for="Aadhar No:">Aadhar No:</label>
+            <input type="text" name="aadhar" id="Aadhar" pattern="[0-9]{12}" title="should be numbers" required><br><br>
+            <label for="number">WhatsApp No:</label>
+            <input type="text" name="number" id="number" pattern="\+91[6789][0-9]{9}" title="should be alphabets"
+                required><br><br>
+            <label for="email">E-mail Id:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email" required pattern="[a-z\d]+@gmail.com" title="email"><br><br>
+            <label for="password">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="password" required
+                pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[#$%&*]).{8,16}"><br><br>
+
+            <label for="Photo">Photo</label>
+            <input type="file" name="file" id="photo" placeholder="choose file" accept=".pdf" required><br><br>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h1>Residential Address Details</h1>
+            </legend>
+            <label for="adresss">Application,s Addres</label>&nbsp;
+            <textarea name="address" id="address" maxlength="20"></textarea>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Maximum
+            character: 20) you
+            hava 20
+            characters left.<br><br>
+            <label
+                for="mandal">Mandal:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="mandal" id="mandal">
+                <option value="Hydarabad">HYDARABAD</option>
+            </select><BR></BR>
+            <label
+                for="village">village:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="village" id="village">
+                <option value="Hydarabad">HYDARABAD</option>
+            </select><br><br>
+            <label for="pincode">
+                Pincode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
+            <input type="text" name="pincode" required pattern="[0-9]{7}" title="numbers"><br><br>
+            <label for="district">Distric : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="district">
+                <option value="district">VARANGAL</option>
+                <option value="district">ADILABAD</option>
+                <option value="district">MEDCHAL</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h1>Pass type Details</h1>
+            </legend>
+            <label for="city">City :
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+            <select>
+                <option value="hydarabad">HYDARABAD</option>
+            </select><br><br>
+            <label>Pass Type :&nbsp;&nbsp;&nbsp; </label>
+
+            <select>
+                <option>--------select--------</option>
+                <option>GREATER PASS</option>
+                <option>ORDINARY PASS</option>
+                <option>METRO DELUX PASS</option>
+                <option>METRO EXPRESS PASS</option>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h1>Mode of Payment & Pass Collection</h1>
+            </legend>
+            <label for="payment"> Payment Mode :
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;</label>
+            <select name="" id="">
+                <option value="">Select payment mode</option>
+                <option value="">Payment at counter</option>
+            </select><br><br>
+            <label for="pass delivery metod">Pass Pelivery Metod :
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="" id="">
+                <option value="">Select Pass Delivery Mode : </option>
+                <option value=""> At Counter</option>
+            </select><br><br>
+            <label for="collect pass">Center at which you want to Collect Pass:</label>
+            <select name="" id="">
+                <option value=""> --------select---------</option>
+                <option>RTS KBHP</option>
+                <option>RTS JBS </option>
+                <option>RTC KOTI</option>
+                <option>RTC CBC</option>
+            </select>
+            <br><br>
+        </fieldset>
+        <br><br>
+        <center><span id="color">
+                dgbW34T
+            </span><br><br>
+            <input type="text" name="capture" pattern="dgbW34T" title="enter about text" required>
+
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>
+            <input type="submit" value="submit">
+        </center>
+    </form>
+</body>
+
+</html>
